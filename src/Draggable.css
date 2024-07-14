@@ -1,0 +1,19 @@
+/* src/Components/Draggable.css */
+.draggable {
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.title-bar {
+  background-color: #ccc;
+  padding: 5px;
+  cursor: grab;
+  user-select: none;
+}
+
+.content {
+  padding: 10px;
+  box-sizing: border-box; /* Ensure padding does not affect the width and height */
+  overflow: auto; /* Ensure content does not overflow the draggable area */
+}
